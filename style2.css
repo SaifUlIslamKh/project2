@@ -1,0 +1,59 @@
+/* CSS for Navbar */
+.navbar {
+  margin-bottom: 0;
+}
+
+.navbar-brand {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.navbar-default {
+  background-color: transparent;
+  border: none;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+  background-color: transparent;
+}
+
+/* CSS for Mobile Menu */
+.dropdown-menu {
+  width: 100%;
+  background-color: #f8f8f8;
+  border: none;
+  box-shadow: none;
+}
+
+.dropdown-menu>li>a {
+  color: #000;
+  font-weight: bold;
+}
+
+.dropdown-menu>li>a:hover {
+  background-color: #e7e7e7;
+}
+
+/* CSS for Page Heading */
+.page-header {
+  text-align: center;
+}
+
+/* CSS for Main Section */
+.main-section {
+  height: 1000px;
+  background-color: #f5f5f5;
+}
+
+/* CSS for Grid Columns */
+.col-xs-12 {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: center;
+}
